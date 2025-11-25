@@ -1,0 +1,15 @@
+.item {
+  height: 50px;
+  border: 2px solid black;
+  box-shadow: 0 0 0 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 200px;
+}
